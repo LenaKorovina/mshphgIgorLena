@@ -9,6 +9,8 @@ import CardActionArea from "@material-ui/core/CardActionArea";
 import CardMedia from "@material-ui/core/CardMedia";
 import CardContent from "@material-ui/core/CardContent";
 import CardActions from "@material-ui/core/CardActions";
+import './Listcss.css';
+
 
 
 function rand() {
@@ -36,32 +38,18 @@ const styles = theme => ({
         outline: 'none',
     },
 });
-
 class SimpleModal extends React.Component {
-    state = {
-        open: false,
-    };
 
-    handleOpen = () => {
-        this.setState({open: true});
-    };
 
-    handleClose = () => {
-        this.setState({open: false});
-    };
 
     render() {
-        const {classes} = this.props;
-
+        const { classes } = this.props;
         return (
             <div>
-
-                <Button onClick={this.handleOpen}>Open Modal</Button>
                 <Modal
                     aria-labelledby="simple-modal-title"
                     aria-describedby="simple-modal-description"
-                    open={this.state.open}
-                    onClose={this.handleClose}
+                    open={ this.props.showModal }
                 >
                     <div style={getModalStyle()} className={classes.paper}>
                         <Card className={classes.card}>
@@ -79,25 +67,30 @@ class SimpleModal extends React.Component {
                                         h2h2h2h2h2
                                     </Typography>
                                     <Typography component="p">
-                                        <form><input type='text' name='city'/>
-                                            <input type='text' name='holidays'/>
-                                            <input type='date' value='date'/>
+                                         <form>
+                                            <input ref='title' type='text' name='title'/>
+                                            <input ref='holiday' type='text' name='holiday'/>
+                                            <input ref='address' type='address' name='address'/>
+
+                                            <input ref='city' type='text' name='city'/>
+
+
+
 
                                         </form>
-
                                     </Typography>
                                 </CardContent>
                             </CardActionArea>
                             <CardActions>
-                                <Button size="small" color="primary">
-                                    Share
+                                <Button size="small" color="primary" onClick={this.props.submitForm}>
+                                    Join Event
                                 </Button>
-                                <Button size="small" color="primary">
-                                    Learn More
+                                <Button size="small" color="primary" onClick={this.props.closeModal}>
+                                    Cancel
                                 </Button>
                             </CardActions>
                         </Card>
-                        <SimpleModalWrapped/>
+                        {/* <SimpleModalWrapped/> */}
                     </div>
                 </Modal>
             </div>
@@ -105,11 +98,12 @@ class SimpleModal extends React.Component {
     }
 }
 
-SimpleModal.propTypes = {
-    classes: PropTypes.object.isRequired,
-};
+// SimpleModal.propTypes = {
+//     classes: PropTypes.object.isRequired,
+//     showModal: PropTypes.bool
+// };
 
-// We need an intermediary variable for handling the recursive nesting.
+
 const SimpleModalWrapped = withStyles(styles)(SimpleModal);
 
 export default SimpleModalWrapped;

@@ -1,7 +1,14 @@
+body{
+  background: linear-gradient(to bottom, #5F4F8D, #FFEED9)no-repeat;
+width: 100%;
+  height: 100%;
+
+}
 .App {
   text-align: center;
-}
 
+
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;

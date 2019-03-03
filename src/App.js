@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import List from './components/List';
-import test from './components/test';
+import Homepage from './components/homepage';
+
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <div><List/></div>
-        <div><test/></div>
-      </div>
-    );
-  }
+    render() {
+        return (
+            <div className="App">
+                <Homepage/>
+
+            </div>
+
+        );
+    }
 }
 
 export default App;

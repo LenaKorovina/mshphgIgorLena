@@ -64,11 +64,11 @@ class SimpleModal extends React.Component {
                                 />
                                 <CardContent>
                                     <Typography gutterBottom variant="h5" component="h2">
-                                        h2h2h2h2h2
+                                        <input ref='title' type='title' name='title'/>
                                     </Typography>
                                     <Typography component="p">
                                          <form>
-                                            <input ref='title' type='text' name='title'/>
+
                                             <input ref='holiday' type='text' name='holiday'/>
                                             <input ref='address' type='address' name='address'/>
 

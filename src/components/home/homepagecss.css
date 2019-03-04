@@ -1,5 +1,8 @@
-body{
+
+.plus{
+    display: flex;
+    flex-direction: row-reverse;
     background: linear-gradient(to bottom, #5F4F8D, #FFEED9)no-repeat;
-    background-size: cover;
+
 
 }

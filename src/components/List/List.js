@@ -73,6 +73,8 @@ class SimpleModal extends React.Component {
                                             <input ref='address' type='address' name='address'/>
 
                                             <input ref='city' type='text' name='city'/>
+                                            <input ref='date' type='date' name='date'/>
+                                            <input ref='time'type='time' name='time'/>
 
 
 

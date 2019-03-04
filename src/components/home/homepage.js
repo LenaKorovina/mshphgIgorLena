@@ -26,14 +26,14 @@ class Homepage extends React.Component{
     }
 
     render(){
-        return(<div>
+        return(<div /*className='container plus'*/>
 
 
-            <div >
+            <div  >
 
 
                 <List showModal={this.state.showModal} closeModal={this.handleModal.bind(this)} submitForm={this.handleSubmit.bind(this)}/>
-                <Button  onClick={this.handleModal.bind(this)}>+</Button>
+                <Button className='btn-block'  onClick={this.handleModal.bind(this)}>Add Your Event</Button>
             </div>
             </div>
         )

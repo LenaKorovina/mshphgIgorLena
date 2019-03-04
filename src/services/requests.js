@@ -24,7 +24,8 @@ let user=JSON.stringify(
 }
 
 );
-export async function requestYourIp(){
+
+ export async function requestYourIp(){
     const response = await fetch( "/event/creation", {
         method: 'POST',
         body:user,

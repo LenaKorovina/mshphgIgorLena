@@ -1,8 +1,9 @@
-
-.plus{
-    display: flex;
-    flex-direction: row-reverse;
+.footer{
     background: linear-gradient(to bottom, #5F4F8D, #FFEED9)no-repeat;
-
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 
 }

@@ -12,7 +12,6 @@ import CardActions from "@material-ui/core/CardActions";
 import './Listcss.css';
 
 
-
 function rand() {
     return Math.round(Math.random() * 20) - 10;
 }
@@ -38,18 +37,18 @@ const styles = theme => ({
         outline: 'none',
     },
 });
+
 class SimpleModal extends React.Component {
 
 
-
     render() {
-        const { classes } = this.props;
+        const {classes} = this.props;
         return (
             <div>
                 <Modal
                     aria-labelledby="simple-modal-title"
                     aria-describedby="simple-modal-description"
-                    open={ this.props.showModal }
+                    open={this.props.showModal}
                 >
                     <div style={getModalStyle()} className={classes.paper}>
                         <Card className={classes.card}>
@@ -60,23 +59,21 @@ class SimpleModal extends React.Component {
                                     className={classes.media}
                                     height="140"
 
-                                    title="title"
+
                                 />
                                 <CardContent>
                                     <Typography gutterBottom variant="h5" component="h2">
                                         <input ref='title' type='title' name='title'/>
                                     </Typography>
                                     <Typography component="p">
-                                         <form>
+                                        <form>
 
                                             <input ref='holiday' type='text' name='holiday'/>
                                             <input ref='address' type='address' name='address'/>
 
                                             <input ref='city' type='text' name='city'/>
                                             <input ref='date' type='date' name='date'/>
-                                            <input ref='time'type='time' name='time'/>
-
-
+                                            <input ref='time' type='time' name='time'/>
 
 
                                         </form>

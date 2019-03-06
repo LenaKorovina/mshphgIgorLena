@@ -1,26 +1,27 @@
 //requests to server
 
 //requests to server
-const baseUrl="https://mishpahug-java221-team-a.herokuapp.com";
+const baseUrl='https://mishpahug-java221-team-a.herokuapp.com';
 
 let user=JSON.stringify(
 {
-    "title": "[String]",
-    "holiday": "[String]",
+
+    "title": "test",
+    "holiday": "test",
     "address": {
-    "city": "[String]",
-        "place_id":"[String]",
+    "city": "test",
+        "place_id":"testID",
         "location":   {
-        "lat": "[Double]",
-            "lng":"[Double]"
+        "lat": "0.57",
+            "lng":"0.57"
     }
 },
-    "confession": "[String]",
-    "date":"[yyyy-MM-dd]",
-    "time":"[HH:mm:ss]",
-    "duration":"[Integer]",
-    "food":["[String]", "[String]"],
-    "description": "[String]"
+    "confession": "test",
+    "date":"2019-04-04",
+    "time":"21:20:40",
+    "duration":"30",
+    "food":["test", "test"],
+    "description": "test"
 }
 
 );

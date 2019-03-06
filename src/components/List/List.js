@@ -12,6 +12,7 @@ import CardActions from "@material-ui/core/CardActions";
 import './Listcss.css';
 
 
+
 function rand() {
     return Math.round(Math.random() * 20) - 10;
 }
@@ -57,6 +58,7 @@ class SimpleModal extends React.Component {
                                     component="img"
                                     alt="alter text"
                                     className={classes.media}
+                                   /* img src={blurMain} alt='ew'*/
                                     height="140"
 
 

@@ -28,15 +28,11 @@ let user=JSON.stringify(
 
 export async function requestYourIp(){
     const response = await fetch( `${baseUrl}/event/creation`, {
-        method: 'POST',
-        body:user,
-        headers:{
-            'Content-Type':'application/json'
 
 
         }
 
 
-    });
+    );
     return await response.json()
 }

@@ -1,9 +1,8 @@
 import React from 'react';
-import List from '../List/List';
+import List from './List/List';
 import Button from '@material-ui/core/Button'
-import {requestYourIp} from "../../services/requests";
+import {requestYourIp} from '../services/requests';
 import './homepagecss.css';
-
 class Homepage extends React.Component{
 
     constructor(props){

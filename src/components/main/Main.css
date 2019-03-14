@@ -1,8 +1,13 @@
 
 /*    background: linear-gradient(to bottom, #5F4F8D, #FFEED9)no-repeat;*/
-\body{
+body{
     font-family: 'Raleway', sans-serif;
-    color: white;
+    color: rgba(11, 42, 255, 0.01);
     background: linear-gradient(to bottom, #5F4F8D, #FFEED9)no-repeat;
     background-size: cover;
+}
+.testimg{
+height: 25em;
+margin-top:1em;
+    margin-bottom: 1em;
 }

@@ -23,19 +23,46 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+    <link rel="stylesheet" href="index.css">
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    <footer class="row">
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+      <div id="menu" class="col-3 d-flex justify-content-center align-items-center">
+        <ul>
+          <li>Calendar</li>
+          <li>Notice</li>
+          <li>Message</li>
+          <li>Favorite</li>
+        </ul>
+      </div>
+
+      <div id="networks" class="col-3 d-flex justify-content-center align-items-center">
+        <ul>
+          <a href="#">
+            <img src="./footerImg/facebook-logo.png" width="45%" height="35%" alt="facebook">
+          </a>
+
+          <a href="#">
+            <img src="./footerImg/vk.jpg" width="45%" height="35%" alt="vkontakte">
+          </a>
+        </ul>
+      </div>
+
+      <div id="news" class="col-3 d-flex justify-content-center align-items-center flex-column">
+        <p>Subscribe to our newsletter</p>
+        <div class="d-flex"><input class="line" type="text"/><button class="btnn"> OK </button></div>
+      </div>
+
+      <div id="logo" class="col-3 d-flex justify-content-center align-items-center">
+        <a href="#">
+          <img src="./footerImg/icon.png" width="60%" height="40%" alt="Logo"/>
+        </a>
+      </div>
+
+    </footer>
   </body>
 </html>

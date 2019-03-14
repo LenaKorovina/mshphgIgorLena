@@ -1,0 +1,50 @@
+
+footer{
+    background-color: #5F4F8D;
+    width: 100%;
+    margin: 0 !important;
+    font-size: 1em;
+    padding: 2% 0;
+    color: white;
+    font-family: Raleway, sans-serif;
+}
+
+footer ul{
+    list-style-type: none;
+    line-height: 2;
+    padding: 0;
+    margin: 0;
+}
+
+footer p{
+    padding: 0;
+    margin: 0;
+    position: center;
+}
+
+
+
+.flex-container {
+    margin-bottom: 0 !important;
+}
+
+#logo img{
+    display: block;
+    margin: 0 auto;
+}
+
+.line {
+
+    border-radius: 5px 0 0 5px;
+    background-color: #5F4F8D;
+
+}
+
+.btnn{
+    border: 1px solid white;
+    border-radius: 0 5px 5px 0;
+    color: #5F4F8D;
+    font-size: 0.5em;
+    font-family: Raleway, sans-serif;
+    width: 5em;
+}

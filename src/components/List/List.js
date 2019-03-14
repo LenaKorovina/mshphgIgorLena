@@ -14,7 +14,7 @@ import CheckboxSelectComponent from "./CheckboxSelectComponent";
 import {requestCreateEvent} from "../../services/requests";
 /* import {requestCreateEvent} from 'src/components/services/requests'*/
 
-
+import img from './pexels-photo-286625.jpeg'
 const baseUrl = "https://mishpahug-java221-team-a.herokuapp.com";
 const email = "vasya@gmail.com";
 const password = "00000000";
@@ -83,6 +83,7 @@ class SimpleModal extends React.Component {
             >
                 <div style={getModalStyle()} className={classes.paper}>
                     <Card className={classes.card}>
+
                         <CardActionArea>
                             {/*<CardMedia*/}
                             {/*component="img"*/}
@@ -91,11 +92,13 @@ class SimpleModal extends React.Component {
                             {/*/* img src={blurMain} alt='ew'*/}
                             {/*height="140"*/}
                             {/*/>*/}
+
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="h2">
-                                    hphphphphp
+                                    <h2>testh2</h2>
                                 </Typography>
                                 <form>
+                                    <img src={img} className='imglist'/>
                                     <input required type='title' name='title' placeholder='title' onChange={this.handleChange}/>
                                     <input required onChange={this.handleChange} type='text' name='holiday'
                                            placeholder='holiday'/>
@@ -119,6 +122,7 @@ class SimpleModal extends React.Component {
                             </CardContent>
                         </CardActionArea>
                         <CardActions>
+
                             <Button size="small" color="primary" onClick={this.props.submitForm}>
                                 Join Event
                             </Button>
@@ -142,3 +146,10 @@ SimpleModal.propTypes = {
 const SimpleModalWrapped = withStyles(styles)(SimpleModal);
 
 export default SimpleModalWrapped;
+
+
+
+/*
+как сделать картинку фоном листа
+как сделать так что б оно не двигалось при каждом вводе в поля
+как оставлять после ввода в все поля */

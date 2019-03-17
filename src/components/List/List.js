@@ -116,8 +116,8 @@ class SimpleModal extends React.Component {
                                                              items="vegetarian kosher non-vegetarian other"/>
 
 
-                                    <input onChange={this.handleChange} type='text' name='description'
-                                           placeholder='description'/>
+                                    <textarea onChange={this.handleChange}  name='description'
+                                           placeholder='description' maxLength={300}/>
                                 </form>
                             </CardContent>
                         </CardActionArea>

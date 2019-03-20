@@ -1,13 +1,13 @@
 
 
 .main {
-    position: absolute;
+
     background: url("../main/Mainimg/ShabbatEvent.jpg");;
     background-blend-mode: multiply;
     background-size: cover;
     top: 15%;
     left: 15%;
-    display: block;
+
 
     width: 70%;
     padding: 4% 5%;

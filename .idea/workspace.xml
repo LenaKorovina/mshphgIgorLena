@@ -2,35 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c48a20b0-e7ad-45fa-b3e4-508659ebb7b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Registration/css/react-big-calendar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/main/Mainimg/ShabbatEvent.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/main/Mainimg/blurMain.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/main/Mainimg/mishpaLogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/main/Mainimg/pexels-photo-286625.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/main/Mainimg/table.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Registration/css/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Registration/Calendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Registration/Calendar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Registration/Registration.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Registration/Registration.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/Main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/4_6012340699796604199.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Registration/images/4_6012340699796604199.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/ShabbatEvent.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Registration/images/ShabbatEvent.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/family.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Registration/images/family.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/old-people-couple-together-connected.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Registration/images/old-people-couple-together-connected.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/people-mother-family-father.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Registration/images/people-mother-family-father.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/pexels-photo-106936.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Registration/images/pexels-photo-106936.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/pexels-photo-173666.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Registration/images/pexels-photo-173666.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/pexels-photo-251808.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Registration/images/pexels-photo-251808.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/pexels-photo-286625.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Registration/images/pexels-photo-286625.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/pexels-photo-302083.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Registration/images/pexels-photo-302083.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/pexels-photo-341378.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Registration/images/pexels-photo-341378.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/pexels-photo-821529.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Registration/images/pexels-photo-821529.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/water-fight-children-water-play-51349.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Registration/images/water-fight-children-water-play-51349.jpeg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -70,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/main/Main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="61" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
+            <state relative-caret-position="221">
+              <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -265,7 +237,7 @@
       <workItem from="1553079232310" duration="1604000" />
       <workItem from="1553083595636" duration="3343000" />
       <workItem from="1553090383387" duration="11000" />
-      <workItem from="1553094015012" duration="1341000" />
+      <workItem from="1553094015012" duration="1645000" />
     </task>
     <task id="LOCAL-00001" summary="+">
       <created>1552331988756</created>
@@ -288,11 +260,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552844154363</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="sign in">
+      <created>1553095582766</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1553095582766</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49306000" />
+    <option name="totallyTimeSpent" value="49610000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -333,7 +312,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="+" />
     <MESSAGE value="++" />
-    <option name="LAST_COMMIT_MESSAGE" value="++" />
+    <MESSAGE value="sign in" />
+    <option name="LAST_COMMIT_MESSAGE" value="sign in" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -576,8 +556,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/main/Main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="61" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
+        <state relative-caret-position="221">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
         </state>
       </provider>
     </entry>

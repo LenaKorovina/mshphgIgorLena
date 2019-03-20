@@ -2,7 +2,7 @@
 body{
     font-family: 'Raleway', sans-serif;
     color: white;
-    background-image: url("./images/4_6012340699796604199.jpg");
+    background-image: url("../images/4_6012340699796604199.jpg");
     background-size: cover;
 
 }
@@ -49,11 +49,11 @@ body{
     margin-left: 5px;
     border-radius: 5%;
 }
-img{
-    margin: 5px;
-    align-content: center;
-}
-div{
+/*img{*/
+/*margin: 5px;*/
+/*align-content: center;*/
+/*}*/
+.margined{
     margin-top: 1em;
     margin-bottom: 1em;
 }

@@ -2,20 +2,18 @@ import React from 'react';
 import noavatar from './icons/noavatar.png';
 import banner from './icons/banner.png';
 import logotip from './icons/logotip.png';
-
+import  './css/App.css';
 import CheckboxSelectComponent from "./CheckboxSelectComponent";
 import ImageUpload from "./ImageUpload";
 import DialogUpdatePhoto from "./DialogUpdatePhoto";
-import Calendar from './Calendar';
-
-
-
 
 
 
 const baseUrl = "https://mishpahug-java221-team-a.herokuapp.com";
 const email = "vasya@gmail.com";
 const password = "00000000";
+
+
 class Registration extends React.Component {
 
     updateUserProfile = () =>{
@@ -64,10 +62,10 @@ class Registration extends React.Component {
     registration = () => {
         let token = btoa(email+":"+password);
         let init = {
-          method : "POST",
+            method : "POST",
             headers : {
-              "Content-Type" : "application/json",
-              authorization : token
+                "Content-Type" : "application/json",
+                authorization : token
             }
         };
 
@@ -94,15 +92,15 @@ class Registration extends React.Component {
                     <div className='div1 col-sm-4'>
                         <h2>Personal information</h2>
                         <form>
-                            <div><input required ref="firstname" type="text" name="firstname" placeholder='First Name'/></div>
-                            <div><input required ref='lastname' type="text" name="lasttname" placeholder='Last Name'/></div>
-                            <div><input required ref='number' type="number" name="phone" placeholder='Phone Number'/></div>
+                            <div className='margined'><input required ref="firstname" type="text" name="firstname" placeholder='First Name'/></div>
+                            <div className='margined'><input required ref='lastname' type="text" name="lasttname" placeholder='Last Name'/></div>
+                            <div className='margined'><input required ref='number' type="number" name="phone" placeholder='Phone Number'/></div>
                             <select ref='confession'>
                                 <option value="Confession">Confession</option>
                                 <option value="religious">religious</option>
                                 <option value="irreligious">irreligious</option>
                             </select>
-                            <div>
+                            <div className='margined'>
                                 <input ref='dateofbirth' type='date'/>
                             </div>
 
@@ -111,7 +109,7 @@ class Registration extends React.Component {
                     <div className='div2 col-sm-4'>
                         <h2>About Myself</h2>
                         <form>
-                            <div>
+                            <div className='margined'>
                                 <select ref='martialstatus'>
                                     <option value="MartialStatus">Martial Status</option>
                                     <option value="married">Married</option>
@@ -119,24 +117,24 @@ class Registration extends React.Component {
                                     <option value="couple">Couple</option>
                                 </select>
                             </div>
-                            <div>
+                            <div className='margined'>
                                 <select ref='gender'>
                                     <option value="Gender">Gender</option>
                                     <option value="male">Male</option>
                                     <option value="female">Female</option>
                                 </select>
                             </div>
-                            <div>
+                            <div className='margined'>
                                 <CheckboxSelectComponent selectName="Food Preferences"
                                                          items="vegetarian kosher non-vegetarian other"/>
 
                             </div>
 
-                            <div>
+                            <div className='margined'>
                                 <CheckboxSelectComponent selectName="Languages"
                                                          items="hebrew english france russian other"/>
                             </div>
-                            <div>
+                            <div className='margined'>
                                 <textarea ref='description' placeholder='Write few words about yourself' maxLength={300}></textarea>
                             </div>
                         </form>
@@ -154,17 +152,26 @@ class Registration extends React.Component {
                         </div>
                     </div>
                 </div>
-                <div>
+                <div className='margined'>
                     <div className='buttons'>
 
-                            <button id="cancel_btn" onClick={this.registration} className="btn btn-primary">Cancel</button>
+                        <button id="cancel_btn" onClick={this.registration} className="btn btn-primary">Cancel</button>
 
-                            <button id="save_btn" onClick={this.updateUserProfile} className="btn btn-primary">Save</button>
+                        <button id="save_btn" onClick={this.updateUserProfile} className="btn btn-primary">Save</button>
 
                     </div>
                     <ImageUpload/>
                     {/*<DialogUpdatePhoto/>*/}
-                    <Calendar/>
+
+
+                    {/*<List/>*/}
+                    {/*<Homepage/>*/}
+                    {/*<CheckboxSelectComponentIgor/>*/}
+                    {/*<Main/>*/}
+                    {/*<Request/>*/}
+
+                    {/*<LogIn/>*/}
+
                 </div>
 
             </div>

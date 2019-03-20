@@ -1,13 +1,48 @@
 
-/*    background: linear-gradient(to bottom, #5F4F8D, #FFEED9)no-repeat;*/
-body{
-    font-family: 'Raleway', sans-serif;
-    color: rgba(11, 42, 255, 0.01);
-    background: linear-gradient(to bottom, #5F4F8D, #FFEED9)no-repeat;
+
+.main {
+    position: absolute;
+    background: url("../main/Mainimg/ShabbatEvent.jpg");;
+    background-blend-mode: multiply;
     background-size: cover;
+    top: 15%;
+    left: 15%;
+    display: block;
+
+    width: 70%;
+    padding: 4% 5%;
+    box-shadow: 4px 4px 4px 4px rgba(104, 88, 152, 0.48);
 }
-.testimg{
-height: 25em;
-margin-top:1em;
-    margin-bottom: 1em;
+
+.main h2 {
+    font-weight: bold;
+    font-size: 2.5em;
 }
+
+
+.signup {
+    background: transparent;
+    color: white;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+}
+
+
+.signup:hover {
+    background-color: rgba(0, 0, 0, 0.45);
+    background-blend-mode: multiply;
+    transition: 1s;
+}
+
+.signup:not(:hover) {
+    transition: 1s;
+}
+
+.main p {
+    font-size: 1.5em;
+    padding: 3% 1%;
+}
+

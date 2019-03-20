@@ -1,37 +1,26 @@
 import React from 'react'
 import './Main.css'
+import mishpaLogo from './Mainimg/mishpaLogo.png'
 
-import Input from "@material-ui/core/Input";
-import im from './pexels-photo-173666.jpeg';
+
 class Main extends React.Component{
     render() {
         return (
-        <div>
-
-
-
-                <div className="container">
-                    <div className="row">
-
-
-    <img className='testimg col-3' src={im} alt='test'/>
-    <img className='testimg col-3' src={im} alt='test'/>
-    <img className='testimg col-3' src={im} alt='test'/>
-    <img className='testimg col-3' src={im} alt='test'/>
-    <img className='testimg col-3' src={im} alt='test'/>
-    <img className='testimg col-3' src={im} alt='test'/>
-    <img className='testimg col-3' src={im} alt='test'/>
 
 
 
 
-
-
-
-
-                    </div>
-                </div>
+            <div className="main container">
+                <img src={mishpaLogo} className="logotip" alt="logogo"/>
+                <h2>Shabbat in the family circle</h2>
+                <p>We're looking for family where you can spend your
+                    hugs or meet shabbat. Just sing in and start finding
+                    a new shabbat family. More than 100 families
+                    waiting for you!
+                </p>
+                <button className="btn-lg signup">sing up!</button>
             </div>
+
 
         )}}
 

@@ -10,6 +10,7 @@ class App extends Component {
 
             <div>
                 <div>
+
                     <Main/>
                     <Registration/>
                     <Calendar/>

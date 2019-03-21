@@ -3,12 +3,13 @@
 .main {
 margin-top: 4em;
     margin-bottom: 6em;
-    background: url("../main/Mainimg/ShabbatEvent.jpg");;
+    background: url("../main/Mainimg/ShabbatEvent.jpg") rgba(149, 128, 214, 0.81);
     background-blend-mode: multiply;
+
     background-size: cover;
     width: 60%;
     padding: 4% 5%;
-    box-shadow: 4px 4px 4px 4px rgba(104, 88, 152, 0.48);
+  /*  box-shadow: 4px 4px 4px 4px rgba(104, 88, 152, 0.48);*/
 }
 
 .main h2 {

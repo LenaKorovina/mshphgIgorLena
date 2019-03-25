@@ -4,6 +4,7 @@ import Homepage from './components/homepage';
 import Main from './components/main/Main';
 import Registration from "./components/Registration/Registration";
 import Calendar from "./components/Registration/Calendar";
+
 class App extends Component {
     render() {
         return (
@@ -15,7 +16,7 @@ class App extends Component {
                     <Registration/>
                     <Calendar/>
 
-                <Homepage/>
+                    <Homepage/>
 
                 </div>
 

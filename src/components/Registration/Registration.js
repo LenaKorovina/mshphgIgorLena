@@ -79,6 +79,8 @@ class Registration extends React.Component {
 
 
 
+
+
     render() {
         return (
             <div className="container">
@@ -142,7 +144,7 @@ class Registration extends React.Component {
 
                     <div className='div3 col-sm-3'>
                         <div>
-                            <p>Change avatar</p>
+                            <button className='changeAvaBtn' onClick={this.ImageUpload}>Change avatar</button>
                             <img ref='avatar' src={noavatar} alt="avatar" width="150"/>
 
                         </div>
@@ -160,7 +162,7 @@ class Registration extends React.Component {
                         <button id="save_btn" onClick={this.updateUserProfile} className="btn btn-primary">Save</button>
 
                     </div>
-                    <ImageUpload/>
+
                     {/*<DialogUpdatePhoto/>*/}
 
 

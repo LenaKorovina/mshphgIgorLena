@@ -6,6 +6,7 @@ import  './css/App.css';
 import CheckboxSelectComponent from "./CheckboxSelectComponent";
 import ImageUpload from "./ImageUpload";
 import DialogUpdatePhoto from "./DialogUpdatePhoto";
+import {NavLink} from "react-router-dom";
 
 
 
@@ -144,7 +145,8 @@ class Registration extends React.Component {
 
                     <div className='div3 col-sm-3'>
                         <div>
-                            <button className='changeAvaBtn' onClick={this.ImageUpload}>Change avatar</button>
+                            {/*<button className='changeAvaBtn'>Change avatar</button>*/}
+                            <NavLink to='/imageUpload'>Change avatar</NavLink>
                             <img ref='avatar' src={noavatar} alt="avatar" width="150"/>
 
                         </div>
